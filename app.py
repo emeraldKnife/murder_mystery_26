@@ -1,5 +1,5 @@
 import os
-from flask import Flask, send_from_directory, render_template, abort, request
+from flask import Flask, send_from_directory, render_template, request
 import sqlite3
 
 app = Flask(__name__)
@@ -28,7 +28,7 @@ def init_db():
 
     cursor.execute("DELETE FROM users")
 
-    cursor.execute("INSERT INTO users VALUES ('guest', 'guest6969', 'guest')")
+    cursor.execute("INSERT INTO users VALUES ('guest', 'guest69', 'guest')")
     cursor.execute("INSERT INTO users VALUES ('admin', 'nfaiue974efhuirlh4378', 'admin')")
 
     conn.commit()
@@ -48,7 +48,7 @@ def login():
 
         # Apply restriction
         if is_blocked(username) or is_blocked(password):
-            return "Input contains forbidden characters!"
+            return "Wrong password"
 
         conn = sqlite3.connect("users.db")
         cursor = conn.cursor()

@@ -1,9 +1,9 @@
-Backup Log - Dr. Vance
+Backup Log - Dr. Thorne
 
 Recovered fragment:
 U3RvbGVf
 
-The system is unstable. If anything happens to me, follow this token script to get what you need. My lucky number is 47.
+The system is unstable. If anything happens to me, follow this token script to get what you need. My lucky number is 47. Hope 47 helps me and you this time.
 
 Download:
-http://murdermystery.vercel.app/the_token_script
+https://murder-mystery-26.onrender.com/the_token_script
