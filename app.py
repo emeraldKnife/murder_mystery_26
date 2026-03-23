@@ -100,4 +100,4 @@ if __name__ == "__main__":
     if not os.path.exists(UTIL_DIR):
         print(f"WARNING: The directory {UTIL_DIR} does not exist!")
 
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000)
