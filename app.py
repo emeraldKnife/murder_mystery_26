@@ -28,7 +28,7 @@ def init_db():
 
     cursor.execute("DELETE FROM users")
 
-    cursor.execute("INSERT INTO users VALUES ('guest', 'guest69', 'guest')")
+    cursor.execute("INSERT INTO users VALUES ('guest', 'guest6969', 'guest')")
     cursor.execute("INSERT INTO users VALUES ('admin', 'nfaiue974efhuirlh4378', 'admin')")
 
     conn.commit()
